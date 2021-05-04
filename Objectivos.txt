@@ -1,0 +1,37 @@
+1. Churn of the new products
+•	Churn happens when person does not pay the first payment in the first 15 days  (We can use Flag_Anul_FP_DI, to see how churn between 0-15 days in the company)
+
+•	at this point pricing can be changed
+
+•	people often ask for insurance plan to then negotiate with their current company
+
+
+ Features_1.0 - canal, Tipo_Fraccionamento, idade, TS_Distrito, TS_Concelho, Ano_Viatura, AC_Distrito, 
+                AC_Concelho, CH_idade, CH_Anos_Carta, N_companhias_anteriores, N_Companhias_Directas, 
+                N_Companhias_Tradicionais, NEW_PACOTE, Campanha
+
+
+
+
+
+
+ ############################################################################################################################################################
+
+
+
+2. Churn between payments
+
+•	someone with 1 year contract and quarter payments can just not pay second quarter and then they automatically churn  (We can use SITAPOL (CN) to see how churn between contracts)
+
+•	At this point, pricing can not be changed, but maybe they can offer something else
+
+•	people sometimes need insurance quickly, so they pay 1st payment, then have time to look for better options and churn before 2-nd payment
+
+
+3. renewal churn
+
+•	customers pay for full year, regardless of the payment option (yearly/quarterly/monthly), but do not pay the first payment for the next year (We can see it with feature "dias" between 365 - 730)
+
+•	here the price of the product changes automatically
+
+•	customers might find increased payment inadequate and choose to search better offer 
